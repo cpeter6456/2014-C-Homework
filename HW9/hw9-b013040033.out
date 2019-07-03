@@ -1,0 +1,44 @@
+3 2 1 48 4 7 6 9 11 21 3 4 48 -1
+
+node :  3
+left : -1
+right: -1
+node :  2  3
+left : -1  2
+right: -1 -1
+node :  1  2  3
+left : -1  1  2
+right: -1 -1 -1
+node :  1  2  3 48
+left : -1  1  2 -1
+right: -1 -1 48 -1
+node :  1  2  3  4 48
+left : -1  1  2 -1  4
+right: -1 -1 48 -1 -1
+node :  1  2  3  4  7 48
+left : -1  1  2 -1 -1  4
+right: -1 -1 48  7 -1 -1
+node :  1  2  3  4  6  7 48
+left : -1  1  2 -1 -1  6  4
+right: -1 -1 48  7 -1 -1 -1
+node :  1  2  3  4  6  7  9 48
+left : -1  1  2 -1 -1  6 -1  4
+right: -1 -1 48  7 -1  9 -1 -1
+node :  1  2  3  4  6  7  9 11 48
+left : -1  1  2 -1 -1  6 -1 -1  4
+right: -1 -1 48  7 -1  9 11 -1 -1
+node :  1  2  3  4  6  7  9 11 21 48
+left : -1  1  2 -1 -1  6 -1 -1 -1  4
+right: -1 -1 48  7 -1  9 11 21 -1 -1
+node :  1  2  4  6  7  9 11 21 48
+left : -1  1  2 -1  6 -1 -1 -1  7
+right: -1 -1 48 -1  9 11 21 -1 -1
+node :  1  2  6  7  9 11 21 48
+left : -1  1  2 -1 -1 -1 -1  7
+right: -1 -1 48  9 11 21 -1 -1
+node :  1  2  6  7  9 11 21
+left : -1  1  2 -1 -1 -1 -1
+right: -1 -1  7  9 11 21 -1
+ans  :  1  2  6  7  9 11 21
+Process returned 0 (0x0)   execution time : 33.626 s
+Press any key to continue.

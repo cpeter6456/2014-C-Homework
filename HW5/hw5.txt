@@ -1,0 +1,23 @@
+stack方式 default
+m=2 n=32569可 n=32570不可	count=2121707510
+m=3 n=12可 n=13不可		count=715664096
+m=4 n=0可 n=1不可		count=107
+m=5 n=0不可			
+
+stack方式-w,-stack = 30000
+m=2 n=3897可 n=3898不可		count=30400502
+m=3 n=9可 n=10不可		count=11164370
+m=4 n=0可 n=1不可		count=107
+m=5 n=0不可			
+
+stack方式-w,-stack = 3000000
+m=2 n=46905可 n=46906不可	count=4400486390
+m=3 n=13可 n=14不可		count=2862983902
+m=4 n=1可 n=2不可		count=2862984010
+m=5 n=0可 n=1不可		count=2862984011
+m=6 n=0不可			
+
+WIN7	家用進階
+CPU	Intel Core i5 3470	3.2GHz
+主記憶體 8G DDR3 
+編譯器名稱 Code::Blocks 12.11
